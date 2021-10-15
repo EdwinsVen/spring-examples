@@ -1,6 +1,5 @@
 package main;
 
-import beans.Location;
 import beans.Person;
 import config.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -18,8 +17,6 @@ public class Main {
         System.out.println("Person's location: " + p.getLocation());
         System.out.println("Person's phone number: " +
                 p.getNumber().getAreaCode() + "-" + p.getNumber().getPrefix() + "-" + p.getNumber().getLineNumber());
-
-
 
     }
 }
